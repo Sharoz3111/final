@@ -1,0 +1,26 @@
+Jenkins :Continuous Integration/Continuous Delivery (CI/CD)
+
+
+
+origin
+
+Jenkins Architecture
+Here's how Jenkins elements are put together and interact:
+
+Developers commit changes to the source code, found in the repository.
+The Jenkins CI server checks the repository at regular intervals and pulls any newly available code.
+The Build Server builds the code into an executable file. In case the build fails, feedback is sent to the developers.
+Jenkins deploys the build application to the test server. If the test fails, the developers are alerted.
+If the code is error-fr
+
+
+
+port 8080
+
+
+
+https://www.oracle.com/java/technologies/downloads/#java8( java version for Jenkins)
+
+
+
+Set the Path for the Environmental Variable for JDK
